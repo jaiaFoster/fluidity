@@ -1,4 +1,5 @@
 import asset3 from "./pictures/Asset 3-100.jpg"
+import bowser from "./pictures/bowser01.jpeg"
 import pic_1 from "./pictures/pic_1.jpg"
 import pic_2 from "./pictures/pic_2.jpg"
 import pic_3 from "./pictures/pic_3.jpg"
@@ -170,6 +171,7 @@ export const images: dataElem[] = [
   { label: "pic_7", value: pic_7 },
   { label: "pic_8", value: pic_8 },
   { label: "pic_9", value: asset3 },
+  { label: "pic_10", value: bowser },
 ]
 
 export const searchEngines: dataElem[] = [
@@ -343,13 +345,13 @@ export const themes: Theme[] = [
     },
   },
   {
-    name: "Gruvbox Inspired Green",
-    image: "https://i.imgur.com/ISjs7cg.jpeg",
+    name: "Bowser",
+    image: bowser,
     colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#CC9A52",
-      "--accent-color": "#647D44",
-      "--accent-color2": "#FCE4B4",
+      "--bg-color": "#000000",
+      "--default-color": "#800000",
+      "--accent-color": "#394D2E",
+      "--accent-color2": "#A67C00",
     },
   },
   {
