@@ -4,9 +4,9 @@ import styled from "@emotion/styled"
 
 import duckduckgo from "../../data/pictures/duckduckgo.svg"
 import ecosia from "../../data/pictures/ecosia.svg"
-import google from "../../data/pictures/google.svg"
-import qwant from "../../data/pictures/qwant.svg"
+//import google from "../../data/pictures/google.svg"
 import JF from "../../data/pictures/JF01.svg"
+import qwant from "../../data/pictures/qwant.svg"
 import * as Settings from "../Settings/settingsHandler"
 
 export const queryToken = "{{query}}"
