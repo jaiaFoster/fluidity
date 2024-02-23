@@ -1,5 +1,3 @@
-
-
 import asset2 from "./pictures/Asset 2-100.jpg"
 import pic_1 from "./pictures/pic_1.jpg"
 import pic_2 from "./pictures/pic_2.jpg"
@@ -9,7 +7,6 @@ import pic_5 from "./pictures/pic_5.jpg"
 import pic_6 from "./pictures/pic_6.jpg"
 import pic_7 from "./pictures/pic_7.jpg"
 import pic_8 from "./pictures/pic_8.png"
-
 import { queryToken } from "../Startpage/Searchbar/Searchbar"
 
 export interface dataElem {
