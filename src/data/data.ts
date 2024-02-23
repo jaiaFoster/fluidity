@@ -353,13 +353,13 @@ export const themes: Theme[] = [
     },
   },
   {
-    name: "Beach",
-    image: "https://i.imgur.com/gcW1jul.jpeg",
+    name: "Frieren",
+    image: asset3,
     colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#E3C9BC",
-      "--accent-color": "#91C6CC",
-      "--accent-color2": "#F0F8FA",
+      "--bg-color": "#8FC0D8",
+      "--default-color": "#2E5077",
+      "--accent-color": "#FAFAFA",
+      "--accent-color2": "#B89C5E",
     },
   },
 ]
