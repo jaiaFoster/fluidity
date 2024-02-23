@@ -6,6 +6,7 @@ import duckduckgo from "../../data/pictures/duckduckgo.svg"
 import ecosia from "../../data/pictures/ecosia.svg"
 import google from "../../data/pictures/google.svg"
 import qwant from "../../data/pictures/qwant.svg"
+import JF from "../../data/pictures/JF01.svg"
 import * as Settings from "../Settings/settingsHandler"
 
 export const queryToken = "{{query}}"
@@ -59,7 +60,7 @@ export const Searchbar = () => {
 
   let searchSymbol = undefined
   if (engine.includes("duckduckgo")) searchSymbol = duckduckgo
-  else if (engine.includes("google")) searchSymbol = google
+  else if (engine.includes("google")) searchSymbol = JF
   else if (engine.includes("qwant")) searchSymbol = qwant
   else if (engine.includes("ecosia")) searchSymbol = ecosia
 
