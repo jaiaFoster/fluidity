@@ -6,6 +6,7 @@ import pic_5 from "./pictures/pic_5.jpg"
 import pic_6 from "./pictures/pic_6.jpg"
 import pic_7 from "./pictures/pic_7.jpg"
 import pic_8 from "./pictures/pic_8.png"
+import pic_9 from "./pictures/Asset 2-100.jpg"
 import { queryToken } from "../Startpage/Searchbar/Searchbar"
 
 export interface dataElem {
@@ -168,6 +169,7 @@ export const images: dataElem[] = [
   { label: "pic_6", value: pic_6 },
   { label: "pic_7", value: pic_7 },
   { label: "pic_8", value: pic_8 },
+  { label: "pic_9", value: pic_9 },
 ]
 
 export const searchEngines: dataElem[] = [
