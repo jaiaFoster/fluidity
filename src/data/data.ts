@@ -1,4 +1,4 @@
-import asset2 from "./pictures/Asset 2-100.jpg"
+import asset3 from "./pictures/Asset 3-100.jpg"
 import pic_1 from "./pictures/pic_1.jpg"
 import pic_2 from "./pictures/pic_2.jpg"
 import pic_3 from "./pictures/pic_3.jpg"
@@ -169,7 +169,7 @@ export const images: dataElem[] = [
   { label: "pic_6", value: pic_6 },
   { label: "pic_7", value: pic_7 },
   { label: "pic_8", value: pic_8 },
-  { label: "pic_9", value: asset2 },
+  { label: "pic_9", value: asset3 },
 ]
 
 export const searchEngines: dataElem[] = [
